@@ -1,3 +1,5 @@
+# Grafico 1x1 1 linha e 1 coluna
+
 # passo 1 - importa a biblioteca
 import matplotlib.pyplot as plt
 
@@ -28,5 +30,4 @@ ax.set_ylabel("Label y")
 ax.legend()
 
 #passo 5 - apresentar o grafico
-figura = Grafico-01.get_figure()    
-figura.savefig('Grafico-01.png', dpi=600)
+plt.show()
