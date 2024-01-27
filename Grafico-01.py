@@ -28,4 +28,5 @@ ax.set_ylabel("Label y")
 ax.legend()
 
 #passo 5 - apresentar o grafico
-plt.show()
+figura = Grafico-01.get_figure()    
+figura.savefig('Grafico-01.png', dpi=600)
