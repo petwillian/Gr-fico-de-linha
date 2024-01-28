@@ -1,3 +1,4 @@
+
 # Grafico 1x1 1 linha e 1 coluna
 
 # passo 1 - importa a biblioteca
@@ -28,6 +29,9 @@ ax.set_ylabel("Label y")
 
 # a legenda
 ax.legend()
+
+# Salvando o gráfico como uma imagem PNG
+plt.savefig('gráfico.png')
 
 #passo 5 - apresentar o grafico
 plt.show()
